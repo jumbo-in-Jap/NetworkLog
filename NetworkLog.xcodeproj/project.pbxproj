@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF5789E1BC1282F00CA5FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5789D1BC1282F00CA5FFE /* AppDelegate.swift */; };
+		DBF578A01BC1282F00CA5FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5789F1BC1282F00CA5FFE /* ViewController.swift */; };
+		DBF578A31BC1282F00CA5FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF578A11BC1282F00CA5FFE /* Main.storyboard */; };
+		DBF578A51BC1282F00CA5FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF578A41BC1282F00CA5FFE /* Assets.xcassets */; };
+		DBF578A81BC1282F00CA5FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF578A61BC1282F00CA5FFE /* LaunchScreen.storyboard */; };
+		DBF578B31BC1282F00CA5FFE /* NetworkLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578B21BC1282F00CA5FFE /* NetworkLogTests.swift */; };
+		DBF578BE1BC1282F00CA5FFE /* NetworkLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578BD1BC1282F00CA5FFE /* NetworkLogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF578AF1BC1282F00CA5FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF578921BC1282F00CA5FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF578991BC1282F00CA5FFE;
+			remoteInfo = NetworkLog;
+		};
+		DBF578BA1BC1282F00CA5FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF578921BC1282F00CA5FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF578991BC1282F00CA5FFE;
+			remoteInfo = NetworkLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF5789A1BC1282F00CA5FFE /* NetworkLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF5789D1BC1282F00CA5FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBF5789F1BC1282F00CA5FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBF578A21BC1282F00CA5FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF578A41BC1282F00CA5FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF578A71BC1282F00CA5FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBF578A91BC1282F00CA5FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF578AE1BC1282F00CA5FFE /* NetworkLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF578B21BC1282F00CA5FFE /* NetworkLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogTests.swift; sourceTree = "<group>"; };
+		DBF578B41BC1282F00CA5FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF578B91BC1282F00CA5FFE /* NetworkLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF578BD1BC1282F00CA5FFE /* NetworkLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogUITests.swift; sourceTree = "<group>"; };
+		DBF578BF1BC1282F00CA5FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF578971BC1282F00CA5FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF578AB1BC1282F00CA5FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF578B61BC1282F00CA5FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF578911BC1282F00CA5FFE = {
+			isa = PBXGroup;
+			children = (
+				DBF5789C1BC1282F00CA5FFE /* NetworkLog */,
+				DBF578B11BC1282F00CA5FFE /* NetworkLogTests */,
+				DBF578BC1BC1282F00CA5FFE /* NetworkLogUITests */,
+				DBF5789B1BC1282F00CA5FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF5789B1BC1282F00CA5FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF5789A1BC1282F00CA5FFE /* NetworkLog.app */,
+				DBF578AE1BC1282F00CA5FFE /* NetworkLogTests.xctest */,
+				DBF578B91BC1282F00CA5FFE /* NetworkLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF5789C1BC1282F00CA5FFE /* NetworkLog */ = {
+			isa = PBXGroup;
+			children = (
+				DBF5789D1BC1282F00CA5FFE /* AppDelegate.swift */,
+				DBF5789F1BC1282F00CA5FFE /* ViewController.swift */,
+				DBF578A11BC1282F00CA5FFE /* Main.storyboard */,
+				DBF578A41BC1282F00CA5FFE /* Assets.xcassets */,
+				DBF578A61BC1282F00CA5FFE /* LaunchScreen.storyboard */,
+				DBF578A91BC1282F00CA5FFE /* Info.plist */,
+			);
+			path = NetworkLog;
+			sourceTree = "<group>";
+		};
+		DBF578B11BC1282F00CA5FFE /* NetworkLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578B21BC1282F00CA5FFE /* NetworkLogTests.swift */,
+				DBF578B41BC1282F00CA5FFE /* Info.plist */,
+			);
+			path = NetworkLogTests;
+			sourceTree = "<group>";
+		};
+		DBF578BC1BC1282F00CA5FFE /* NetworkLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578BD1BC1282F00CA5FFE /* NetworkLogUITests.swift */,
+				DBF578BF1BC1282F00CA5FFE /* Info.plist */,
+			);
+			path = NetworkLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF578991BC1282F00CA5FFE /* NetworkLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF578C21BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLog" */;
+			buildPhases = (
+				DBF578961BC1282F00CA5FFE /* Sources */,
+				DBF578971BC1282F00CA5FFE /* Frameworks */,
+				DBF578981BC1282F00CA5FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkLog;
+			productName = NetworkLog;
+			productReference = DBF5789A1BC1282F00CA5FFE /* NetworkLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF578AD1BC1282F00CA5FFE /* NetworkLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF578C51BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLogTests" */;
+			buildPhases = (
+				DBF578AA1BC1282F00CA5FFE /* Sources */,
+				DBF578AB1BC1282F00CA5FFE /* Frameworks */,
+				DBF578AC1BC1282F00CA5FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF578B01BC1282F00CA5FFE /* PBXTargetDependency */,
+			);
+			name = NetworkLogTests;
+			productName = NetworkLogTests;
+			productReference = DBF578AE1BC1282F00CA5FFE /* NetworkLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF578B81BC1282F00CA5FFE /* NetworkLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF578C81BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLogUITests" */;
+			buildPhases = (
+				DBF578B51BC1282F00CA5FFE /* Sources */,
+				DBF578B61BC1282F00CA5FFE /* Frameworks */,
+				DBF578B71BC1282F00CA5FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF578BB1BC1282F00CA5FFE /* PBXTargetDependency */,
+			);
+			name = NetworkLogUITests;
+			productName = NetworkLogUITests;
+			productReference = DBF578B91BC1282F00CA5FFE /* NetworkLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF578921BC1282F00CA5FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HanedaKentarou;
+				TargetAttributes = {
+					DBF578991BC1282F00CA5FFE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DBF578AD1BC1282F00CA5FFE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DBF578991BC1282F00CA5FFE;
+					};
+					DBF578B81BC1282F00CA5FFE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DBF578991BC1282F00CA5FFE;
+					};
+				};
+			};
+			buildConfigurationList = DBF578951BC1282F00CA5FFE /* Build configuration list for PBXProject "NetworkLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF578911BC1282F00CA5FFE;
+			productRefGroup = DBF5789B1BC1282F00CA5FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF578991BC1282F00CA5FFE /* NetworkLog */,
+				DBF578AD1BC1282F00CA5FFE /* NetworkLogTests */,
+				DBF578B81BC1282F00CA5FFE /* NetworkLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF578981BC1282F00CA5FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF578A81BC1282F00CA5FFE /* LaunchScreen.storyboard in Resources */,
+				DBF578A51BC1282F00CA5FFE /* Assets.xcassets in Resources */,
+				DBF578A31BC1282F00CA5FFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF578AC1BC1282F00CA5FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF578B71BC1282F00CA5FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF578961BC1282F00CA5FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF578A01BC1282F00CA5FFE /* ViewController.swift in Sources */,
+				DBF5789E1BC1282F00CA5FFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF578AA1BC1282F00CA5FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF578B31BC1282F00CA5FFE /* NetworkLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF578B51BC1282F00CA5FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF578BE1BC1282F00CA5FFE /* NetworkLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF578B01BC1282F00CA5FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF578991BC1282F00CA5FFE /* NetworkLog */;
+			targetProxy = DBF578AF1BC1282F00CA5FFE /* PBXContainerItemProxy */;
+		};
+		DBF578BB1BC1282F00CA5FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF578991BC1282F00CA5FFE /* NetworkLog */;
+			targetProxy = DBF578BA1BC1282F00CA5FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF578A11BC1282F00CA5FFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF578A21BC1282F00CA5FFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF578A61BC1282F00CA5FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF578A71BC1282F00CA5FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF578C01BC1282F00CA5FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBF578C11BC1282F00CA5FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF578C31BC1282F00CA5FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetworkLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF578C41BC1282F00CA5FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetworkLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBF578C61BC1282F00CA5FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkLog.app/NetworkLog";
+			};
+			name = Debug;
+		};
+		DBF578C71BC1282F00CA5FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkLog.app/NetworkLog";
+			};
+			name = Release;
+		};
+		DBF578C91BC1282F00CA5FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkLog;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBF578CA1BC1282F00CA5FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkLog;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF578951BC1282F00CA5FFE /* Build configuration list for PBXProject "NetworkLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF578C01BC1282F00CA5FFE /* Debug */,
+				DBF578C11BC1282F00CA5FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF578C21BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF578C31BC1282F00CA5FFE /* Debug */,
+				DBF578C41BC1282F00CA5FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF578C51BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF578C61BC1282F00CA5FFE /* Debug */,
+				DBF578C71BC1282F00CA5FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF578C81BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF578C91BC1282F00CA5FFE /* Debug */,
+				DBF578CA1BC1282F00CA5FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF578921BC1282F00CA5FFE /* Project object */;
+}
