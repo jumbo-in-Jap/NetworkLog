@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1260C51BCBD6DA001E30EB /* CaptureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1260C41BCBD6DA001E30EB /* CaptureDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DB1260C71BCBD7C6001E30EB /* CaptureImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1260C61BCBD7C6001E30EB /* CaptureImageAssets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		DBF5789E1BC1282F00CA5FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5789D1BC1282F00CA5FFE /* AppDelegate.swift */; };
 		DBF578A01BC1282F00CA5FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5789F1BC1282F00CA5FFE /* ViewController.swift */; };
 		DBF578A31BC1282F00CA5FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF578A11BC1282F00CA5FFE /* Main.storyboard */; };
@@ -14,6 +16,14 @@
 		DBF578A81BC1282F00CA5FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF578A61BC1282F00CA5FFE /* LaunchScreen.storyboard */; };
 		DBF578B31BC1282F00CA5FFE /* NetworkLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578B21BC1282F00CA5FFE /* NetworkLogTests.swift */; };
 		DBF578BE1BC1282F00CA5FFE /* NetworkLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578BD1BC1282F00CA5FFE /* NetworkLogUITests.swift */; };
+		DBF578D51BC12AAE00CA5FFE /* CaptureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578CD1BC12AAE00CA5FFE /* CaptureProtocol.swift */; };
+		DBF578D61BC12AAE00CA5FFE /* Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578D01BC12AAE00CA5FFE /* Capture.swift */; };
+		DBF578D71BC12AAE00CA5FFE /* CaptureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578D21BC12AAE00CA5FFE /* CaptureTableViewController.swift */; };
+		DBF578D81BC12AAE00CA5FFE /* CaptureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578D31BC12AAE00CA5FFE /* CaptureTableViewCell.swift */; };
+		DBF578D91BC12AAE00CA5FFE /* CaptureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF578D41BC12AAE00CA5FFE /* CaptureTableViewCell.xib */; };
+		DBF578DB1BC12AD800CA5FFE /* NetworkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578DA1BC12AD800CA5FFE /* NetworkLog.swift */; };
+		DBF578DD1BC12AEC00CA5FFE /* CaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF578DC1BC12AEC00CA5FFE /* CaptureManager.swift */; };
+		DBF578DF1BC132C300CA5FFE /* CaptureTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF578DE1BC132C300CA5FFE /* CaptureTableViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1260C41BCBD6DA001E30EB /* CaptureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureDetailViewController.swift; sourceTree = "<group>"; };
+		DB1260C61BCBD7C6001E30EB /* CaptureImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CaptureImageAssets.xcassets; sourceTree = "<group>"; };
 		DBF5789A1BC1282F00CA5FFE /* NetworkLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5789D1BC1282F00CA5FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF5789F1BC1282F00CA5FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,14 @@
 		DBF578B91BC1282F00CA5FFE /* NetworkLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF578BD1BC1282F00CA5FFE /* NetworkLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogUITests.swift; sourceTree = "<group>"; };
 		DBF578BF1BC1282F00CA5FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF578CD1BC12AAE00CA5FFE /* CaptureProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureProtocol.swift; sourceTree = "<group>"; };
+		DBF578D01BC12AAE00CA5FFE /* Capture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capture.swift; sourceTree = "<group>"; };
+		DBF578D21BC12AAE00CA5FFE /* CaptureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureTableViewController.swift; sourceTree = "<group>"; };
+		DBF578D31BC12AAE00CA5FFE /* CaptureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureTableViewCell.swift; sourceTree = "<group>"; };
+		DBF578D41BC12AAE00CA5FFE /* CaptureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptureTableViewCell.xib; sourceTree = "<group>"; };
+		DBF578DA1BC12AD800CA5FFE /* NetworkLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLog.swift; sourceTree = "<group>"; };
+		DBF578DC1BC12AEC00CA5FFE /* CaptureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureManager.swift; sourceTree = "<group>"; };
+		DBF578DE1BC132C300CA5FFE /* CaptureTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CaptureTableViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 		DBF5789C1BC1282F00CA5FFE /* NetworkLog */ = {
 			isa = PBXGroup;
 			children = (
+				DBF578CB1BC12AAE00CA5FFE /* NetworkLog */,
 				DBF5789D1BC1282F00CA5FFE /* AppDelegate.swift */,
 				DBF5789F1BC1282F00CA5FFE /* ViewController.swift */,
 				DBF578A11BC1282F00CA5FFE /* Main.storyboard */,
@@ -123,6 +144,55 @@
 				DBF578BF1BC1282F00CA5FFE /* Info.plist */,
 			);
 			path = NetworkLogUITests;
+			sourceTree = "<group>";
+		};
+		DBF578CB1BC12AAE00CA5FFE /* NetworkLog */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578CC1BC12AAE00CA5FFE /* Lib */,
+				DBF578CE1BC12AAE00CA5FFE /* Manager */,
+				DBF578CF1BC12AAE00CA5FFE /* Model */,
+				DBF578D11BC12AAE00CA5FFE /* ViewController */,
+				DBF578DA1BC12AD800CA5FFE /* NetworkLog.swift */,
+				DB1260C61BCBD7C6001E30EB /* CaptureImageAssets.xcassets */,
+			);
+			path = NetworkLog;
+			sourceTree = "<group>";
+		};
+		DBF578CC1BC12AAE00CA5FFE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578CD1BC12AAE00CA5FFE /* CaptureProtocol.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DBF578CE1BC12AAE00CA5FFE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578DC1BC12AEC00CA5FFE /* CaptureManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DBF578CF1BC12AAE00CA5FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578D01BC12AAE00CA5FFE /* Capture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBF578D11BC12AAE00CA5FFE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBF578D21BC12AAE00CA5FFE /* CaptureTableViewController.swift */,
+				DBF578D31BC12AAE00CA5FFE /* CaptureTableViewCell.swift */,
+				DBF578D41BC12AAE00CA5FFE /* CaptureTableViewCell.xib */,
+				DBF578DE1BC132C300CA5FFE /* CaptureTableViewController.storyboard */,
+				DB1260C41BCBD6DA001E30EB /* CaptureDetailViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF578D91BC12AAE00CA5FFE /* CaptureTableViewCell.xib in Resources */,
 				DBF578A81BC1282F00CA5FFE /* LaunchScreen.storyboard in Resources */,
 				DBF578A51BC1282F00CA5FFE /* Assets.xcassets in Resources */,
+				DBF578DF1BC132C300CA5FFE /* CaptureTableViewController.storyboard in Resources */,
 				DBF578A31BC1282F00CA5FFE /* Main.storyboard in Resources */,
+				DB1260C71BCBD7C6001E30EB /* CaptureImageAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF578D81BC12AAE00CA5FFE /* CaptureTableViewCell.swift in Sources */,
+				DBF578D61BC12AAE00CA5FFE /* Capture.swift in Sources */,
+				DBF578D71BC12AAE00CA5FFE /* CaptureTableViewController.swift in Sources */,
+				DB1260C51BCBD6DA001E30EB /* CaptureDetailViewController.swift in Sources */,
 				DBF578A01BC1282F00CA5FFE /* ViewController.swift in Sources */,
 				DBF5789E1BC1282F00CA5FFE /* AppDelegate.swift in Sources */,
+				DBF578D51BC12AAE00CA5FFE /* CaptureProtocol.swift in Sources */,
+				DBF578DD1BC12AEC00CA5FFE /* CaptureManager.swift in Sources */,
+				DBF578DB1BC12AD800CA5FFE /* NetworkLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetworkLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = test.NetworkLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -483,6 +564,7 @@
 				DBF578C41BC1282F00CA5FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBF578C51BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLogTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +573,7 @@
 				DBF578C71BC1282F00CA5FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBF578C81BC1282F00CA5FFE /* Build configuration list for PBXNativeTarget "NetworkLogUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +582,7 @@
 				DBF578CA1BC1282F00CA5FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
